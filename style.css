@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+font-family: "poppins", serif;
+}
+body {
+    background-color: #222831;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+.navigation a:hover {
+    color: #00adb5;
+}
+hr{
+    opacity: 10%;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    flex-direction: row-reverse;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.arrow{
+    transform: translateX(1rem) translateY(-0.5rem);
+}
+
+
+.name {
+    font-size: 3rem;
+    color: #eeeeee;
+}
+.title {
+    font-size: 4rem;
+    color: #00adb5;
+}
+.heroing {
+    max-width: 50%;
+    height: auto;
+}
+.hireMe {
+    background-color: #00adb5;
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 5rem;
+    flex-direction: row-reverse;
+}
+.aboutMeImg {
+    max-width: 50%;
+    height: auto;
+}
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+}
+.textTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutname {
+    color: #eeeeee;
+}
+.aboutTitle {
+    color: #00adb5;
+}
+.aboutMepar {
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+
+/* Services Section */
+.services {
+    margin: 5rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+}
+.services-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.service-card {
+    background-color: #393e46;
+    padding: 2rem;
+    border-radius: 12px;
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+.service-card h3 {
+    color: #00adb5;
+    margin-bottom: 1rem;
+}
+.service-card p {
+    color: rgba(238, 238, 238, 0.75);
+}
+
+/* Contact Section */
+.contact {
+    margin: 5rem auto;
+    max-width: 1200px;
+    padding: 2rem;
+    text-align: center;
+}
+.contact-container {
+    margin-top: 2rem;
+}
+.contact-container p {
+    color: rgba(238, 238, 238, 0.75);
+    margin-bottom: 2rem;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.contact-link {
+    background-color: #00adb5;
+    color: #eeeeee;
+    padding: 0.8rem 2rem;
+    border-radius: 24px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.contact-link:hover {
+    transform: scale(1.1);
+}
+
+.serviceName, .contactName {
+    color: #eeeeee;
+}
+.serviceTitle, .contactTitle {
+    color: #00adb5;
+}
